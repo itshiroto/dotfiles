@@ -1,0 +1,6 @@
+configuration {
+ modi: "window,drun,ssh,combi";
+ font: "firacode 10";
+ combi-modi: "window,drun,ssh";
+}
+@import "/usr/share/rofi/themes/gruvbox-dark.rasi"
