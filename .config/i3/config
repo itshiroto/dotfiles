@@ -156,7 +156,7 @@ assign [class=Audacity|Vlc|Ghb|Xfburn|Gimp*|Inkscape] 5
 assign [class=Lxappearance|System-config-printer.py|Lxtask|GParted|Pavucontrol|Exo-helper*|Lxrandr|Arandr] 6
 for_window [class=Viewnior|feh|Audacious|File-roller|Lxappearance|Lxtask|Pavucontrol] floating enable
 for_window [class=URxvt|Firefox|Geany|Evince|Soffice|libreoffice*|mpv|Ghb|Xfburn|Gimp*|Inkscape|Vlc|Lxappearance|Audacity] focus
-for_window [class=Xfburn|GParted|System-config-printer.py|Lxtask|Pavucontrol|Exo-helper*|Lxrandr|Arandr] focus
+for_window [class=Xfburn|GParted|System-config-printer.py|Lxtask|Pavucontrol|Exo-helper*|Lxrandr|Arandr|Thunar] focus
 
 # colour of border, background, text, indicator, and child_border
 #client.focused              #bf616a #2f343f #d8dee8 #bf616a #d8dee8
@@ -166,7 +166,7 @@ for_window [class=Xfburn|GParted|System-config-printer.py|Lxtask|Pavucontrol|Exo
 #client.placeholder          #2f343f #2f343f #d8dee8 #2f343f #2f343f
 #client.background           #2f343f
 
-client.focused              #6195bf #6195bf #d8dee8 #6195bf #6195bf
+client.focused              #ca9945 #6195bf #d8dee8 #a27a2a #a27a2a
 client.focused_inactive     #2f343f #2f343f #d8dee8 #2f343f #2f343f
 client.unfocused            #2f343f #2f343f #d8dee8 #2f343f #2f343f
 client.urgent               #2f343f #2f343f #d8dee8 #2f343f #2f343f
@@ -183,7 +183,7 @@ client.background           #2f343f
 
 # Gaps
 # gaps inner 5
-# gaps outer 8 
+# gaps outer 10
 
-
-# Wallpaper
+# smart_gaps inverse_outer
+smart_borders on
