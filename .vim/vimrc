@@ -390,3 +390,5 @@ execute pathogen#infect()
 
 let &rtp  = '~/.vim/bundle/vimtex,' . &rtp
 let &rtp .= '~/.vim/bundle/vimtex/after'
+
+set mouse=a

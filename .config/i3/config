@@ -9,14 +9,12 @@ font pango: Noto Sans 8
 floating_modifier $super
 
 #autostart
-exec --no-startup-id xsettingsd &
+exec --no-startup-id .config/polybar/launch.sh
 exec --no-startup-id picom -b
-# exec --no-startup-id nitrogen --set-zoom-fill ~/unsplash2.jpg
+exec --no-startup-id xsettingsd &
 exec --no-startup-id nitrogen --restore
-# exec --no-startup-id spotifyd -u rivomcid -p "zzT9rB23GgcC*5"
-
-# Sart shutter at startup
-#exec shutter --min_at_startup
+exec --no-startup-id conky -q -c /home/itshiroto/.config/conky/conky.conf
+exec --no-startup-id barrierc --enable-crypto 192.168.1.2 
 
 
 # start dmenu (a program launcher)

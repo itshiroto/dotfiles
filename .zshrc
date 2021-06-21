@@ -111,3 +111,6 @@ source $ZSH/oh-my-zsh.sh
 
 # powerline-daemon -q
 # . /usr/lib/python3.8/site-packages/powerline/bindings/zsh/powerline.zsh
+
+export EDITOR='vim'
+export VISUAL='vim'
