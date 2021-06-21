@@ -1,6 +1,6 @@
+/** Basic config file **/
+
 configuration {
- modi: "window,drun,ssh,combi";
- font: "firacode 10";
- combi-modi: "window,drun,ssh";
+  show-icons:         true;
+  icon-theme:         "Papirus";
 }
-@import "/usr/share/rofi/themes/gruvbox-dark.rasi"

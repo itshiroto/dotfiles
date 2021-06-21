@@ -386,7 +386,7 @@ function! VisualSelection(direction, extra_filter) range
 endfunction
 
 let g:powerline_pycmd = 'py3'
-execute pathogen#infect()
+" execute pathogen#infect()
 
 let &rtp  = '~/.vim/bundle/vimtex,' . &rtp
 let &rtp .= '~/.vim/bundle/vimtex/after'

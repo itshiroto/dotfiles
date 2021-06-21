@@ -114,3 +114,4 @@ source $ZSH/oh-my-zsh.sh
 
 export EDITOR='vim'
 export VISUAL='vim'
+export PATH=$HOME/.config/rofi/bin:$PATH

@@ -1,14 +1,5 @@
 #!/usr/bin/env sh
 
-## Add this to your wm startup file.
-
-until p=$(pidof xfsettingsd)
-do
-	        sleep 1
-	done
-
-	sleep 1
-
 # Terminate already running bar instances
 killall -q polybar xfce4-panel
 
