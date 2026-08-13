@@ -1,0 +1,157 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "lsp": true,
+  "provider": {
+    "openrouter": {
+      "models": {
+        "@preset/code-flash": {
+          "name": "Rivo Code Flash"
+        },
+        "@preset/code-thinking": {
+          "name": "Rivo Code Think"
+        }
+      }
+    },
+    "blackbear": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "IAK BlackBear",
+      "options": {
+        "baseURL": "http://10.10.10.10:4000"
+      },
+      "models": {
+        "iak/code-router:quality": {
+          "name": "IAK Code Router Quality"
+        },
+        "iak/code-router:cost": {
+          "name": "IAK Code Router Cost"
+        },
+        "iak/auto-router": {
+          "name": "IAK Auto Router"
+        },
+        "anthropic/claude-sonnet-4-6": {
+          "name": "Claude Sonnet 4.6"
+        },
+        "anthropic/claude-haiku-4-5": {
+          "name": "Claude Haiku 4.5"
+        },
+        "openai/gpt-5.1-codex": {
+          "name": "GPT-5.1 Codex"
+        },
+        "openai/gpt-5-mini": {
+          "name": "GPT-5 Mini"
+        },
+        "openai/gpt-5.2": {
+          "name": "GPT-5.2"
+        },
+        "google/gemini-3-pro-preview": {
+          "name": "Gemini 3 Pro Preview"
+        },
+        "google/gemini-3-flash-preview": {
+          "name": "Gemini 3 Flash Preview"
+        },
+        "x-ai/grok-code-fast-1": {
+          "name": "Grok Code Fast-1"
+        },
+        "minimax/minimax-m2.5": {
+          "name": "Minimax M2.5"
+        },
+        "zai/glm-5.1": {
+          "name": "GLM 5.1"
+        },
+        "zai/glm-5.2": {
+          "name": "GLM 5.2"
+        },
+        "moonshotai/kimi-k2.6": {
+          "name": "Kimi K2.6"
+        },
+        "moonshotai/kimi-k2.7-code": {
+          "name": "Kimi K2.7 Code"
+        },
+        "moonshotai/kimi-k3": {
+          "name": "Kimi K3"
+        },
+        "qwen/qwen3-coder": {
+          "name": "Qwen3 Coder"
+        },
+        "qwen/qwen3.6-plus": {
+          "name": "Qwen3.6 Plus"
+        },
+        "openai/gpt-oss-120b": {
+          "name": "GPT OSS 120B"
+        },
+        "qwen/qwen3-coder-30b-a3b-instruct": {
+          "name": "Qwen3 Coder 30B"
+        },
+        "deepseek/deepseek-v4-flash": {
+          "name": "Deepseek V4 Flash"
+        },
+        "deepseek/deepseek-v4-pro": {
+          "name": "Deepseek V4 Pro"
+        },
+        "iak/muse-glimmer": {
+          "name": "IAK Muse Glimmer"
+        },
+        "iak/gemma-4": {
+          "name": "IAK Gemma"
+        },
+        "iak/qwen-3.6": {
+          "name": "IAK Qwen"
+        }
+      }
+    },
+  },
+  "mcp": {
+    "jina": {
+      "type": "remote",
+      "url": "https://mcp.jina.ai/sse",
+      "headers": {
+        "Authorization": "Bearer jina_ccac9626a8ad4a1e887ffc3b9082b485yKlq_pMVrMiUoiRRZ0A3-THa4uiw"
+      }
+    },
+    "sql-hebronevent": {
+      "type": "local",
+      "enabled": false,
+      "command": [
+        "uvx",
+        "--from",
+        "mcp-alchemy==2025.8.15.91819",
+        "--with",
+        "pymysql",
+        "--refresh-package",
+        "mcp-alchemy",
+        "mcp-alchemy"
+      ],
+      "environment": {
+        "DB_URL": "mysql+pymysql://itshiroto:juicer123@127.0.0.1/hebron_event"
+      }
+    },
+    "figma-mcp": {
+      "type": "remote",
+      "url": "https://mcp.figma.com/mcp",
+      "enabled": false
+    },
+    "chrome-devtools": {
+      "type": "local",
+      "command": [
+        "npx",
+        "-y",
+        "chrome-devtools-mcp@latest",
+        "-e",
+        "/usr/sbin/chromium-browser"
+      ]
+    }
+  },
+  "permission": {
+    "external_directory": {
+      "~/work/iak/**": "allow"
+    }
+  },
+  "agent": {
+    "explore": {
+      "model": "opencode-go/deepseek-v4-flash"
+    }
+  },
+  "experimental": {
+    "disable_paste_summary": true
+  }
+}

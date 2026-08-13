@@ -448,10 +448,16 @@ tmux_conf_uninstall_plugins_on_reload=true
 # visit https://github.com/tmux-plugins for available plugins
 #set -g @plugin 'tmux-plugins/tmux-copycat'
 #set -g @plugin 'tmux-plugins/tmux-cpu'
-#set -g @plugin 'tmux-plugins/tmux-resurrect'
-#set -g @plugin 'tmux-plugins/tmux-continuum'
-#set -g @continuum-restore 'on'
+set -g @plugin 'tmux-plugins/tmux-resurrect'
+# set -g @plugin 'tmux-plugins/tmux-continuum'
+# set -g @continuum-restore 'on'
+set -s set-clipboard external
+set -g extended-keys on
+set -g extended-keys-format csi-u
 
+# Move Window
+# bind-key -n C-S h swap-window -t -1
+# bind-key -n C-S l swap-window -t +1
 
 # -- custom variables ----------------------------------------------------------
 

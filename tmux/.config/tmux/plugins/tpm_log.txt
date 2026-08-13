@@ -1,0 +1,738 @@
+[2026-03-12 00:41:52.890]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2026-03-12 00:41:52.899]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-03-12 00:41:52.936]	Installing "tmux-resurrect"
+[2026-03-12 00:41:52.945]	Installing "tmux-continuum"
+[2026-03-12 00:41:54.482]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2026-03-12 00:41:54.493]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-03-12 00:41:54.545]	Already installed "tmux-resurrect"
+[2026-03-12 00:41:54.552]	  "tmux-continuum" download success
+[2026-03-12 00:41:54.554]	Already installed "tmux-continuum"
+[2026-03-12 00:41:54.565]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-03-12 00:41:54.620]	Updating all plugins!
+[2026-03-12 00:41:54.628]	
+[2026-03-12 00:41:55.414]	  "tmux-continuum" update success
+[2026-03-12 00:41:55.422]	    | Already up to date.
+[2026-03-12 00:41:55.450]	  "tmux-resurrect" update fail
+[2026-03-12 00:41:55.458]	    | Already up to date.
+[2026-03-12 00:41:55.465]	    | fatal: Unable to find current revision in submodule path 'lib/tmux-test'
+[2026-03-12 00:41:55.474]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-03-12 00:41:55.559]	  "tmux-resurrect" download success
+[2026-03-12 00:41:55.568]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-03-12 00:41:55.582]	Done.
+
+[2026-03-12 00:41:55.634]	Updating all plugins!
+[2026-03-12 00:41:55.642]	
+[2026-03-12 00:41:55.652]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-03-12 00:41:55.682]	Removing "tmux-continuum"
+[2026-03-12 00:41:55.693]	  "tmux-continuum" clean success
+[2026-03-12 00:41:55.701]	Removing "tmux-resurrect"
+[2026-03-12 00:41:55.712]	  "tmux-resurrect" clean success
+[2026-03-12 00:41:55.793]	Done.
+
+[2026-03-12 00:42:02.913]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2026-03-12 00:42:02.917]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2026-03-12 00:42:02.927]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-03-12 00:42:02.930]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-03-12 00:42:02.970]	Installing "tmux-continuum"
+[2026-03-12 00:42:02.972]	Installing "tmux-resurrect"
+[2026-03-12 00:42:02.979]	Installing "tmux-resurrect"
+[2026-03-12 00:42:02.980]	Installing "tmux-continuum"
+[2026-03-12 00:42:02.988]	  "tmux-resurrect" download fail
+[2026-03-12 00:42:02.999]	  "tmux-continuum" download fail
+[2026-03-12 00:42:03.008]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-03-12 00:42:03.028]	Updating all plugins!
+[2026-03-12 00:42:03.037]	
+[2026-03-12 00:42:05.127]	  "tmux-continuum" update fail
+[2026-03-12 00:42:05.135]	    | From https://github.com/tmux-plugins/tmux-continuum
+[2026-03-12 00:42:05.143]	    |  * branch            HEAD       -> FETCH_HEAD
+[2026-03-12 00:42:05.151]	    | error: The following untracked working tree files would be overwritten by merge:
+[2026-03-12 00:42:05.159]	    | 	.gitattributes
+[2026-03-12 00:42:05.167]	    | 	CHANGELOG.md
+[2026-03-12 00:42:05.176]	    | 	CONTRIBUTING.md
+[2026-03-12 00:42:05.184]	    | 	LICENSE.md
+[2026-03-12 00:42:05.192]	    | 	README.md
+[2026-03-12 00:42:05.202]	    | 	continuum.tmux
+[2026-03-12 00:42:05.210]	    | 	docs/automatic_start.md
+[2026-03-12 00:42:05.214]	  "tmux-continuum" download success
+[2026-03-12 00:42:05.219]	    | 	docs/continuum_status.md
+[2026-03-12 00:42:05.227]	    | 	docs/faq.md
+[2026-03-12 00:42:05.235]	    | 	docs/multiple_tmux_servers.md
+[2026-03-12 00:42:05.242]	    | 	docs/systemd_details.md
+[2026-03-12 00:42:05.250]	    | 	scripts/check_tmux_version.sh
+[2026-03-12 00:42:05.258]	    | 	scripts/continuum_restore.sh
+[2026-03-12 00:42:05.265]	    | 	scripts/continuum_save.sh
+[2026-03-12 00:42:05.273]	    | 	scripts/continuum_status.sh
+[2026-03-12 00:42:05.281]	    | 	scripts/handle_tmux_automatic_start.sh
+[2026-03-12 00:42:05.290]	    | 	scripts/handle_tmux_automatic_start/README.md
+[2026-03-12 00:42:05.298]	    | 	scripts/handle_tmux_automatic_start/osx_alacritty_start_tmux.sh
+[2026-03-12 00:42:05.305]	    | 	scripts/handle_tmux_automatic_start/osx_disable.sh
+[2026-03-12 00:42:05.313]	    | 	scripts/handle_tmux_automatic_start/osx_enable.sh
+[2026-03-12 00:42:05.321]	    | 	scripts/handle_tmux_automatic_start/osx_iterm_start_tmux.sh
+[2026-03-12 00:42:05.329]	    | 	scripts/handle_tmux_automatic_start/osx_kitty_start_tmux.sh
+[2026-03-12 00:42:05.336]	    | 	scripts/handle_tmux_automatic_start/osx_terminal_start_tmux.sh
+[2026-03-12 00:42:05.344]	    | 	scripts/handle_tmux_automatic_start/systemd_disable.sh
+[2026-03-12 00:42:05.352]	    | 	scripts/handle_tmux_automatic_start/systemd_enable.sh
+[2026-03-12 00:42:05.360]	    | 	scripts/helpers.sh
+[2026-03-12 00:42:05.367]	    | 	scripts/shared.sh
+[2026-03-12 00:42:05.375]	    | 	scripts/variables.sh
+[2026-03-12 00:42:05.382]	    | Please move or remove them before you merge.
+[2026-03-12 00:42:05.391]	    | Aborting
+[2026-03-12 00:42:08.034]	  "tmux-resurrect" download success
+[2026-03-12 00:42:08.045]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-03-12 00:42:08.067]	Updating all plugins!
+[2026-03-12 00:42:08.076]	
+[2026-03-12 00:42:09.125]	  "tmux-resurrect" update fail
+[2026-03-12 00:42:09.137]	    | From https://github.com/tmux-plugins/tmux-resurrect
+[2026-03-12 00:42:09.150]	    |  * branch            HEAD       -> FETCH_HEAD
+[2026-03-12 00:42:09.159]	    | fatal: Cannot merge multiple branches into empty head.
+[2026-03-12 00:42:09.168]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-03-12 00:42:09.215]	  "tmux-resurrect" update success
+[2026-03-12 00:42:09.223]	    | Already up to date.
+[2026-03-12 00:42:09.267]	Done.
+
+[2026-03-12 00:42:09.398]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2026-03-12 00:42:09.408]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-03-12 00:42:09.442]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-03-12 00:42:09.463]	Updating all plugins!
+[2026-03-12 00:42:09.474]	
+[2026-03-12 00:42:09.482]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2026-03-12 00:42:09.483]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-03-12 00:42:09.492]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-03-12 00:42:09.516]	Removing "tmux-continuum"
+[2026-03-12 00:42:09.524]	  "tmux-continuum" clean success
+[2026-03-12 00:42:09.527]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-03-12 00:42:09.532]	Removing "tmux-resurrect"
+[2026-03-12 00:42:09.539]	  "tmux-resurrect" clean success
+[2026-03-12 00:42:09.548]	Updating all plugins!
+[2026-03-12 00:42:09.556]	
+[2026-03-12 00:42:09.565]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-03-12 00:42:09.612]	Done.
+
+[2026-03-12 00:42:09.663]	Done.
+
+[2026-03-12 00:42:09.831]	  "tmux-continuum" update fail
+[2026-03-12 00:42:09.853]	    | fatal: Unable to read current working directory: No such file or directory
+[2026-03-12 00:42:09.871]	    | fatal: fetch-pack: invalid index-pack output
+[2026-03-12 00:42:09.885]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-03-12 00:42:09.982]	Done.
+
+[2026-03-12 00:42:21.886]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2026-03-12 00:42:21.908]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-03-12 00:42:21.975]	Installing "tmux-resurrect"
+[2026-03-12 00:42:21.991]	Installing "tmux-continuum"
+[2026-03-12 00:42:23.397]	  "tmux-continuum" download success
+[2026-03-12 00:42:25.347]	  "tmux-resurrect" download success
+[2026-03-12 00:42:25.359]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-03-12 00:42:25.384]	Updating all plugins!
+[2026-03-12 00:42:25.392]	
+[2026-03-12 00:42:26.578]	  "tmux-resurrect" update success
+[2026-03-12 00:42:26.587]	    | Already up to date.
+[2026-03-12 00:42:27.012]	  "tmux-continuum" update success
+[2026-03-12 00:42:27.027]	    | Already up to date.
+[2026-03-12 00:42:27.038]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-03-12 00:42:27.168]	Done.
+
+[2026-03-12 00:46:27.313]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2026-03-12 00:46:27.322]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-03-12 00:46:27.360]	Already installed "tmux-continuum"
+[2026-03-12 00:46:27.368]	Already installed "tmux-resurrect"
+[2026-03-12 00:46:27.378]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-03-12 00:46:27.401]	Updating all plugins!
+[2026-03-12 00:46:27.410]	
+[2026-03-12 00:46:28.241]	  "tmux-continuum" update success
+[2026-03-12 00:46:28.253]	    | Already up to date.
+[2026-03-12 00:46:28.263]	  "tmux-resurrect" update success
+[2026-03-12 00:46:28.273]	    | Already up to date.
+[2026-03-12 00:46:28.283]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-03-12 00:46:28.387]	Done.
+
+[2026-03-12 00:46:29.067]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2026-03-12 00:46:29.079]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-03-12 00:46:29.130]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-03-12 00:46:29.172]	Updating all plugins!
+[2026-03-12 00:46:29.181]	
+[2026-03-12 00:46:29.196]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-03-12 00:46:29.233]	Removing "tmux-continuum"
+[2026-03-12 00:46:29.242]	  "tmux-continuum" clean success
+[2026-03-12 00:46:29.250]	Removing "tmux-resurrect"
+[2026-03-12 00:46:29.259]	  "tmux-resurrect" clean success
+[2026-03-12 00:46:29.334]	Done.
+
+[2026-03-12 00:47:26.390]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2026-03-12 00:47:26.406]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-03-12 00:47:26.452]	Installing "tmux-resurrect"
+[2026-03-12 00:47:26.467]	Installing "tmux-continuum"
+[2026-03-12 00:47:28.180]	  "tmux-continuum" download success
+[2026-03-12 00:47:29.540]	  "tmux-resurrect" download success
+[2026-03-12 00:47:29.549]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-03-12 00:47:29.568]	Updating all plugins!
+[2026-03-12 00:47:29.577]	
+[2026-03-12 00:47:30.505]	  "tmux-resurrect" update success
+[2026-03-12 00:47:30.514]	    | Already up to date.
+[2026-03-12 00:47:30.537]	  "tmux-continuum" update success
+[2026-03-12 00:47:30.546]	    | Already up to date.
+[2026-03-12 00:47:30.555]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-03-12 00:47:30.655]	Done.
+
+[2026-03-13 13:24:53.810]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2026-03-13 13:24:53.819]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-03-13 13:24:53.859]	Already installed "tmux-continuum"
+[2026-03-13 13:24:53.867]	Already installed "tmux-resurrect"
+[2026-03-13 13:24:53.877]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-03-13 13:24:53.901]	Updating all plugins!
+[2026-03-13 13:24:53.909]	
+[2026-03-13 13:24:55.515]	  "tmux-continuum" update success
+[2026-03-13 13:24:55.524]	    | Already up to date.
+[2026-03-13 13:24:55.532]	  "tmux-resurrect" update success
+[2026-03-13 13:24:55.540]	    | Already up to date.
+[2026-03-13 13:24:55.548]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-03-13 13:24:55.646]	Done.
+
+[2026-03-20 18:17:46.600]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2026-03-20 18:17:46.614]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-03-20 18:17:46.788]	Already installed "tmux-resurrect"
+[2026-03-20 18:17:46.798]	Already installed "tmux-continuum"
+[2026-03-20 18:17:46.809]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-03-20 18:17:46.841]	Updating all plugins!
+[2026-03-20 18:17:46.851]	
+[2026-03-20 18:17:48.022]	  "tmux-continuum" update success
+[2026-03-20 18:17:48.031]	    | Already up to date.
+[2026-03-20 18:17:48.039]	  "tmux-resurrect" update success
+[2026-03-20 18:17:48.047]	    | Already up to date.
+[2026-03-20 18:17:48.057]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-03-20 18:17:48.157]	Done.
+
+[2026-03-25 20:38:11.276]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2026-03-25 20:38:11.286]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-03-25 20:38:11.337]	Already installed "tmux-resurrect"
+[2026-03-25 20:38:11.346]	Already installed "tmux-continuum"
+[2026-03-25 20:38:11.356]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-03-25 20:38:11.387]	Updating all plugins!
+[2026-03-25 20:38:11.398]	
+[2026-03-25 20:38:12.653]	  "tmux-continuum" update success
+[2026-03-25 20:38:12.662]	    | Already up to date.
+[2026-03-25 20:38:12.671]	  "tmux-resurrect" update success
+[2026-03-25 20:38:12.679]	    | Already up to date.
+[2026-03-25 20:38:12.688]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-03-25 20:38:12.798]	Done.
+
+[2026-03-30 10:59:30.889]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2026-03-30 10:59:30.902]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-03-30 10:59:30.947]	Already installed "tmux-resurrect"
+[2026-03-30 10:59:30.956]	Already installed "tmux-continuum"
+[2026-03-30 10:59:30.965]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-03-30 10:59:30.990]	Updating all plugins!
+[2026-03-30 10:59:30.999]	
+[2026-03-30 10:59:32.091]	  "tmux-continuum" update success
+[2026-03-30 10:59:32.100]	    | Already up to date.
+[2026-03-30 10:59:32.109]	  "tmux-resurrect" update success
+[2026-03-30 10:59:32.117]	    | Already up to date.
+[2026-03-30 10:59:32.128]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-03-30 10:59:32.234]	Done.
+
+[2026-04-01 11:37:40.016]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2026-04-01 11:37:40.038]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-04-01 11:37:40.218]	Already installed "tmux-continuum"
+[2026-04-01 11:37:40.230]	Already installed "tmux-resurrect"
+[2026-04-01 11:37:40.244]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-04-01 11:37:40.283]	Updating all plugins!
+[2026-04-01 11:37:40.299]	
+[2026-04-01 11:37:41.324]	  "tmux-resurrect" update success
+[2026-04-01 11:37:41.336]	    | Already up to date.
+[2026-04-01 11:37:41.385]	  "tmux-continuum" update success
+[2026-04-01 11:37:41.398]	    | Already up to date.
+[2026-04-01 11:37:41.408]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-04-01 11:37:41.543]	Done.
+
+[2026-04-06 11:22:02.640]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2026-04-06 11:22:02.654]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-04-06 11:22:02.752]	Already installed "tmux-resurrect"
+[2026-04-06 11:22:02.765]	Already installed "tmux-continuum"
+[2026-04-06 11:22:02.775]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-04-06 11:22:02.817]	Updating all plugins!
+[2026-04-06 11:22:02.830]	
+[2026-04-06 11:22:04.237]	  "tmux-continuum" update success
+[2026-04-06 11:22:04.253]	    | Already up to date.
+[2026-04-06 11:22:04.270]	  "tmux-resurrect" update success
+[2026-04-06 11:22:04.281]	    | Already up to date.
+[2026-04-06 11:22:04.298]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-04-06 11:22:04.449]	Done.
+
+[2026-04-14 16:21:56.187]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect
+[2026-04-14 16:21:56.197]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-04-14 16:21:56.242]	Already installed "tmux-resurrect"
+[2026-04-14 16:21:56.252]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-04-14 16:21:56.278]	Updating all plugins!
+[2026-04-14 16:21:56.288]	
+[2026-04-14 16:21:57.228]	  "tmux-resurrect" update success
+[2026-04-14 16:21:57.236]	    | Already up to date.
+[2026-04-14 16:21:57.246]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-04-14 16:21:57.282]	Removing "tmux-continuum"
+[2026-04-14 16:21:57.291]	  "tmux-continuum" clean success
+[2026-04-14 16:21:57.365]	Done.
+
+[2026-04-14 22:51:24.415]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect
+[2026-04-14 22:51:24.424]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-04-14 22:51:24.490]	Already installed "tmux-resurrect"
+[2026-04-14 22:51:24.499]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-04-14 22:51:24.521]	Updating all plugins!
+[2026-04-14 22:51:24.530]	
+[2026-04-14 22:51:25.575]	  "tmux-resurrect" update success
+[2026-04-14 22:51:25.586]	    | Already up to date.
+[2026-04-14 22:51:25.598]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-04-14 22:51:25.689]	Done.
+
+[2026-04-22 13:45:09.610]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect
+[2026-04-22 13:45:09.622]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-04-22 13:45:09.692]	Already installed "tmux-resurrect"
+[2026-04-22 13:45:09.701]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-04-22 13:45:09.722]	Updating all plugins!
+[2026-04-22 13:45:09.730]	
+[2026-04-22 13:45:10.811]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect
+[2026-04-22 13:45:10.820]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-04-22 13:45:10.857]	Already installed "tmux-resurrect"
+[2026-04-22 13:45:10.867]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-04-22 13:45:10.891]	Updating all plugins!
+[2026-04-22 13:45:10.899]	
+[2026-04-22 13:45:11.017]	  "tmux-resurrect" update success
+[2026-04-22 13:45:11.025]	    | Already up to date.
+[2026-04-22 13:45:11.034]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-04-22 13:45:11.187]	Done.
+
+[2026-04-22 13:45:11.899]	  "tmux-resurrect" update success
+[2026-04-22 13:45:11.907]	    | Already up to date.
+[2026-04-22 13:45:11.915]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-04-22 13:45:11.993]	Removing "tmux-resurrect"
+[2026-04-22 13:45:12.022]	  "tmux-resurrect" clean success
+[2026-04-22 13:45:12.087]	Done.
+
+[2026-04-24 10:39:01.141]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect
+[2026-04-24 10:39:01.151]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-04-24 10:39:01.202]	Installing "tmux-resurrect"
+[2026-04-24 10:39:03.355]	  "tmux-resurrect" download success
+[2026-04-24 10:39:03.366]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-04-24 10:39:03.398]	Updating all plugins!
+[2026-04-24 10:39:03.406]	
+[2026-04-24 10:39:04.141]	  "tmux-resurrect" update success
+[2026-04-24 10:39:04.150]	    | Already up to date.
+[2026-04-24 10:39:04.159]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-04-24 10:39:04.267]	Done.
+
+[2026-04-24 12:47:47.042]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect
+[2026-04-24 12:47:47.051]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-04-24 12:47:47.093]	Already installed "tmux-resurrect"
+[2026-04-24 12:47:47.102]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-04-24 12:47:47.130]	Updating all plugins!
+[2026-04-24 12:47:47.138]	
+[2026-04-24 12:47:48.004]	  "tmux-resurrect" update success
+[2026-04-24 12:47:48.012]	    | Already up to date.
+[2026-04-24 12:47:48.023]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-04-24 12:47:48.219]	Done.
+
+[2026-04-24 12:48:11.599]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect
+[2026-04-24 12:48:11.609]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-04-24 12:48:11.649]	Already installed "tmux-resurrect"
+[2026-04-24 12:48:11.659]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-04-24 12:48:11.682]	Updating all plugins!
+[2026-04-24 12:48:11.691]	
+[2026-04-24 12:48:12.427]	  "tmux-resurrect" update success
+[2026-04-24 12:48:12.435]	    | Already up to date.
+[2026-04-24 12:48:12.443]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-04-24 12:48:12.545]	Done.
+
+[2026-05-04 10:33:01.548]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect
+[2026-05-04 10:33:01.558]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-05-04 10:33:01.603]	Already installed "tmux-resurrect"
+[2026-05-04 10:33:01.611]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-05-04 10:33:01.632]	Updating all plugins!
+[2026-05-04 10:33:01.640]	
+[2026-05-04 10:33:02.596]	  "tmux-resurrect" update success
+[2026-05-04 10:33:02.607]	    | Already up to date.
+[2026-05-04 10:33:02.618]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-05-04 10:33:02.758]	Done.
+
+[2026-05-08 10:32:23.745]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect
+[2026-05-08 10:32:23.757]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-05-08 10:32:23.816]	Already installed "tmux-resurrect"
+[2026-05-08 10:32:23.826]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-05-08 10:32:23.853]	Updating all plugins!
+[2026-05-08 10:32:23.863]	
+[2026-05-08 10:32:24.763]	  "tmux-resurrect" update success
+[2026-05-08 10:32:24.777]	    | Already up to date.
+[2026-05-08 10:32:24.786]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-05-08 10:32:24.920]	Done.
+
+[2026-05-11 13:51:28.428]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect
+[2026-05-11 13:51:28.437]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-05-11 13:51:28.477]	Already installed "tmux-resurrect"
+[2026-05-11 13:51:28.486]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-05-11 13:51:28.507]	Updating all plugins!
+[2026-05-11 13:51:28.514]	
+[2026-05-11 13:51:29.669]	  "tmux-resurrect" update success
+[2026-05-11 13:51:29.676]	    | Already up to date.
+[2026-05-11 13:51:29.685]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-05-11 13:51:29.802]	Done.
+
+[2026-05-12 00:44:33.326]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect
+[2026-05-12 00:44:33.337]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-05-12 00:44:33.394]	Already installed "tmux-resurrect"
+[2026-05-12 00:44:33.404]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-05-12 00:44:33.432]	Updating all plugins!
+[2026-05-12 00:44:33.444]	
+[2026-05-12 00:44:34.730]	  "tmux-resurrect" update success
+[2026-05-12 00:44:34.739]	    | Already up to date.
+[2026-05-12 00:44:34.749]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-05-12 00:44:34.891]	Done.
+
+[2026-05-18 10:59:12.915]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect
+[2026-05-18 10:59:12.924]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-05-18 10:59:12.968]	Already installed "tmux-resurrect"
+[2026-05-18 10:59:12.983]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-05-18 10:59:13.028]	Updating all plugins!
+[2026-05-18 10:59:13.040]	
+[2026-05-18 10:59:14.062]	  "tmux-resurrect" update success
+[2026-05-18 10:59:14.071]	    | Already up to date.
+[2026-05-18 10:59:14.082]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-05-18 10:59:14.191]	Done.
+
+[2026-05-20 11:20:48.962]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect
+[2026-05-20 11:20:48.971]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-05-20 11:20:49.009]	Already installed "tmux-resurrect"
+[2026-05-20 11:20:49.017]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-05-20 11:20:49.036]	Updating all plugins!
+[2026-05-20 11:20:49.044]	
+[2026-05-20 11:20:50.289]	  "tmux-resurrect" update success
+[2026-05-20 11:20:50.297]	    | Already up to date.
+[2026-05-20 11:20:50.306]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-05-20 11:20:50.401]	Done.
+
+[2026-05-25 11:39:27.604]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect
+[2026-05-25 11:39:27.628]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-05-25 11:39:27.864]	Already installed "tmux-resurrect"
+[2026-05-25 11:39:27.873]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-05-25 11:39:27.996]	Updating all plugins!
+[2026-05-25 11:39:28.014]	
+[2026-05-25 11:39:29.041]	  "tmux-resurrect" update success
+[2026-05-25 11:39:29.050]	    | Already up to date.
+[2026-05-25 11:39:29.058]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-05-25 11:39:29.176]	Done.
+
+[2026-05-25 11:40:08.953]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect
+[2026-05-25 11:40:08.966]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-05-25 11:40:09.019]	Already installed "tmux-resurrect"
+[2026-05-25 11:40:09.030]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-05-25 11:40:09.061]	Updating all plugins!
+[2026-05-25 11:40:09.070]	
+[2026-05-25 11:40:10.384]	  "tmux-resurrect" update success
+[2026-05-25 11:40:10.393]	    | Already up to date.
+[2026-05-25 11:40:10.506]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-05-25 11:40:10.631]	Done.
+
+[2026-05-25 11:41:26.217]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect
+[2026-05-25 11:41:26.226]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-05-25 11:41:26.264]	Already installed "tmux-resurrect"
+[2026-05-25 11:41:26.273]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-05-25 11:41:26.294]	Updating all plugins!
+[2026-05-25 11:41:26.302]	
+[2026-05-25 11:41:27.308]	  "tmux-resurrect" update success
+[2026-05-25 11:41:27.316]	    | Already up to date.
+[2026-05-25 11:41:27.389]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-05-25 11:41:27.495]	Done.
+
+[2026-05-29 00:18:38.725]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect
+[2026-05-29 00:18:38.735]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-05-29 00:18:38.776]	Already installed "tmux-resurrect"
+[2026-05-29 00:18:38.784]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-05-29 00:18:38.805]	Updating all plugins!
+[2026-05-29 00:18:38.813]	
+[2026-05-29 00:18:39.899]	  "tmux-resurrect" update success
+[2026-05-29 00:18:39.913]	    | Already up to date.
+[2026-05-29 00:18:39.926]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-05-29 00:18:40.056]	Done.
+
+[2026-06-02 15:38:52.125]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect
+[2026-06-02 15:38:52.136]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-06-02 15:38:52.183]	Already installed "tmux-resurrect"
+[2026-06-02 15:38:52.191]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-06-02 15:38:52.215]	Updating all plugins!
+[2026-06-02 15:38:52.224]	
+[2026-06-02 15:38:53.137]	  "tmux-resurrect" update success
+[2026-06-02 15:38:53.146]	    | Already up to date.
+[2026-06-02 15:38:53.156]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-06-02 15:38:53.253]	Done.
+
+[2026-06-02 16:11:16.524]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect
+[2026-06-02 16:11:16.533]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-06-02 16:11:16.577]	Already installed "tmux-resurrect"
+[2026-06-02 16:11:16.586]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-06-02 16:11:16.606]	Updating all plugins!
+[2026-06-02 16:11:16.613]	
+[2026-06-02 16:11:17.934]	  "tmux-resurrect" update success
+[2026-06-02 16:11:17.941]	    | Already up to date.
+[2026-06-02 16:11:17.949]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-06-02 16:11:18.055]	Done.
+
+[2026-06-05 10:24:17.994]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect
+[2026-06-05 10:24:18.004]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-06-05 10:24:18.058]	Already installed "tmux-resurrect"
+[2026-06-05 10:24:18.067]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-06-05 10:24:18.088]	Updating all plugins!
+[2026-06-05 10:24:18.095]	
+[2026-06-05 10:24:19.238]	  "tmux-resurrect" update success
+[2026-06-05 10:24:19.246]	    | Already up to date.
+[2026-06-05 10:24:19.254]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-06-05 10:24:19.359]	Done.
+
+[2026-06-09 10:41:46.541]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect
+[2026-06-09 10:41:46.550]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-06-09 10:41:46.596]	Already installed "tmux-resurrect"
+[2026-06-09 10:41:46.606]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-06-09 10:41:46.628]	Updating all plugins!
+[2026-06-09 10:41:46.637]	
+[2026-06-09 10:41:47.479]	  "tmux-resurrect" update success
+[2026-06-09 10:41:47.489]	    | Already up to date.
+[2026-06-09 10:41:47.500]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-06-09 10:41:47.618]	Done.
+
+[2026-06-10 21:49:05.309]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect
+[2026-06-10 21:49:05.317]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-06-10 21:49:05.363]	Already installed "tmux-resurrect"
+[2026-06-10 21:49:05.372]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-06-10 21:49:05.400]	Updating all plugins!
+[2026-06-10 21:49:05.410]	
+[2026-06-10 21:49:06.747]	  "tmux-resurrect" update success
+[2026-06-10 21:49:06.754]	    | Already up to date.
+[2026-06-10 21:49:06.763]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-06-10 21:49:06.902]	Done.
+
+[2026-06-11 10:24:10.507]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect
+[2026-06-11 10:24:10.516]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-06-11 10:24:10.559]	Already installed "tmux-resurrect"
+[2026-06-11 10:24:10.582]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-06-11 10:24:10.613]	Updating all plugins!
+[2026-06-11 10:24:10.620]	
+[2026-06-11 10:24:11.806]	  "tmux-resurrect" update success
+[2026-06-11 10:24:11.819]	    | Already up to date.
+[2026-06-11 10:24:11.833]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-06-11 10:24:11.948]	Done.
+
+[2026-06-12 10:32:56.432]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect
+[2026-06-12 10:32:56.451]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-06-12 10:32:56.571]	Already installed "tmux-resurrect"
+[2026-06-12 10:32:56.592]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-06-12 10:32:56.659]	Updating all plugins!
+[2026-06-12 10:32:56.682]	
+[2026-06-12 10:32:58.244]	  "tmux-resurrect" update success
+[2026-06-12 10:32:58.257]	    | Already up to date.
+[2026-06-12 10:32:58.266]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-06-12 10:32:58.417]	Done.
+
+[2026-06-16 14:41:41.737]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect
+[2026-06-16 14:41:41.746]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-06-16 14:41:41.788]	Already installed "tmux-resurrect"
+[2026-06-16 14:41:41.795]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-06-16 14:41:41.823]	Updating all plugins!
+[2026-06-16 14:41:41.832]	
+[2026-06-16 14:41:42.823]	  "tmux-resurrect" update success
+[2026-06-16 14:41:42.835]	    | Already up to date.
+[2026-06-16 14:41:42.850]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-06-16 14:41:42.975]	Done.
+
+[2026-06-19 14:49:37.425]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect
+[2026-06-19 14:49:37.433]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-06-19 14:49:37.474]	Already installed "tmux-resurrect"
+[2026-06-19 14:49:37.481]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-06-19 14:49:37.507]	Updating all plugins!
+[2026-06-19 14:49:37.514]	
+[2026-06-19 14:49:38.467]	  "tmux-resurrect" update success
+[2026-06-19 14:49:38.485]	    | Already up to date.
+[2026-06-19 14:49:38.504]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-06-19 14:49:38.650]	Done.
+
+[2026-06-20 21:33:51.279]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect
+[2026-06-20 21:33:51.288]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-06-20 21:33:51.331]	Already installed "tmux-resurrect"
+[2026-06-20 21:33:51.339]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-06-20 21:33:51.360]	Updating all plugins!
+[2026-06-20 21:33:51.368]	
+[2026-06-20 21:33:52.162]	  "tmux-resurrect" update success
+[2026-06-20 21:33:52.169]	    | Already up to date.
+[2026-06-20 21:33:52.178]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-06-20 21:33:52.300]	Done.
+
+[2026-06-23 10:40:03.593]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect
+[2026-06-23 10:40:03.604]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-06-23 10:40:03.647]	Already installed "tmux-resurrect"
+[2026-06-23 10:40:03.657]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-06-23 10:40:03.678]	Updating all plugins!
+[2026-06-23 10:40:03.685]	
+[2026-06-23 10:40:04.652]	  "tmux-resurrect" update success
+[2026-06-23 10:40:04.660]	    | Already up to date.
+[2026-06-23 10:40:04.669]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-06-23 10:40:04.781]	Done.
+
+[2026-06-24 11:15:11.661]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect
+[2026-06-24 11:15:11.671]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-06-24 11:15:11.714]	Already installed "tmux-resurrect"
+[2026-06-24 11:15:11.722]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-06-24 11:15:11.744]	Updating all plugins!
+[2026-06-24 11:15:11.752]	
+[2026-06-24 11:15:12.508]	  "tmux-resurrect" update success
+[2026-06-24 11:15:12.516]	    | Already up to date.
+[2026-06-24 11:15:12.525]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-06-24 11:15:12.674]	Done.
+
+[2026-06-25 10:18:54.752]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect
+[2026-06-25 10:18:54.761]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-06-25 10:18:54.804]	Already installed "tmux-resurrect"
+[2026-06-25 10:18:54.812]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-06-25 10:18:54.833]	Updating all plugins!
+[2026-06-25 10:18:54.840]	
+[2026-06-25 10:18:55.617]	  "tmux-resurrect" update success
+[2026-06-25 10:18:55.624]	    | Already up to date.
+[2026-06-25 10:18:55.632]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-06-25 10:18:55.760]	Done.
+
+[2026-06-29 11:46:34.068]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect
+[2026-06-29 11:46:34.077]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-06-29 11:46:34.120]	Already installed "tmux-resurrect"
+[2026-06-29 11:46:34.130]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-06-29 11:46:34.151]	Updating all plugins!
+[2026-06-29 11:46:34.158]	
+[2026-06-29 11:46:34.948]	  "tmux-resurrect" update success
+[2026-06-29 11:46:34.955]	    | Already up to date.
+[2026-06-29 11:46:34.964]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-06-29 11:46:35.087]	Done.
+
+[2026-07-06 16:59:47.730]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect
+[2026-07-06 16:59:47.739]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-07-06 16:59:47.785]	Already installed "tmux-resurrect"
+[2026-07-06 16:59:47.793]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-07-06 16:59:47.815]	Updating all plugins!
+[2026-07-06 16:59:47.822]	
+[2026-07-06 16:59:48.599]	  "tmux-resurrect" update success
+[2026-07-06 16:59:48.607]	    | Already up to date.
+[2026-07-06 16:59:48.615]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-07-06 16:59:48.739]	Done.
+
+[2026-07-07 11:09:43.352]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect
+[2026-07-07 11:09:43.361]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-07-07 11:09:43.399]	Already installed "tmux-resurrect"
+[2026-07-07 11:09:43.407]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-07-07 11:09:43.427]	Updating all plugins!
+[2026-07-07 11:09:43.434]	
+[2026-07-07 11:09:44.191]	  "tmux-resurrect" update success
+[2026-07-07 11:09:44.200]	    | Already up to date.
+[2026-07-07 11:09:44.208]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-07-07 11:09:44.332]	Done.
+
+[2026-07-08 10:52:02.676]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect
+[2026-07-08 10:52:02.686]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-07-08 10:52:02.730]	Already installed "tmux-resurrect"
+[2026-07-08 10:52:02.739]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-07-08 10:52:02.765]	Updating all plugins!
+[2026-07-08 10:52:02.775]	
+[2026-07-08 10:52:03.620]	  "tmux-resurrect" update success
+[2026-07-08 10:52:03.630]	    | Already up to date.
+[2026-07-08 10:52:03.639]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-07-08 10:52:03.794]	Done.
+
+[2026-07-13 10:49:01.138]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect
+[2026-07-13 10:49:01.147]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-07-13 10:49:01.192]	Already installed "tmux-resurrect"
+[2026-07-13 10:49:01.199]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-07-13 10:49:01.222]	Updating all plugins!
+[2026-07-13 10:49:01.230]	
+[2026-07-13 10:49:02.138]	  "tmux-resurrect" update success
+[2026-07-13 10:49:02.146]	    | Already up to date.
+[2026-07-13 10:49:02.153]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-07-13 10:49:02.248]	Done.
+
+[2026-07-17 11:56:42.492]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect
+[2026-07-17 11:56:42.501]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-07-17 11:56:42.543]	Already installed "tmux-resurrect"
+[2026-07-17 11:56:42.551]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-07-17 11:56:42.575]	Updating all plugins!
+[2026-07-17 11:56:42.584]	
+[2026-07-17 11:56:43.361]	  "tmux-resurrect" update success
+[2026-07-17 11:56:43.368]	    | Already up to date.
+[2026-07-17 11:56:43.380]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-07-17 11:56:43.506]	Done.
+
+[2026-07-20 10:39:26.941]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect
+[2026-07-20 10:39:26.953]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-07-20 10:39:27.000]	Already installed "tmux-resurrect"
+[2026-07-20 10:39:27.008]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-07-20 10:39:27.032]	Updating all plugins!
+[2026-07-20 10:39:27.041]	
+[2026-07-20 10:39:27.905]	  "tmux-resurrect" update success
+[2026-07-20 10:39:27.912]	    | Already up to date.
+[2026-07-20 10:39:27.920]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-07-20 10:39:28.029]	Done.
+
+[2026-07-22 10:36:46.242]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect
+[2026-07-22 10:36:46.257]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-07-22 10:36:46.306]	Already installed "tmux-resurrect"
+[2026-07-22 10:36:46.318]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-07-22 10:36:46.342]	Updating all plugins!
+[2026-07-22 10:36:46.354]	
+[2026-07-22 10:36:47.110]	  "tmux-resurrect" update success
+[2026-07-22 10:36:47.118]	    | Already up to date.
+[2026-07-22 10:36:47.127]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-07-22 10:36:47.254]	Done.
+
+[2026-07-24 10:51:20.843]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect
+[2026-07-24 10:51:20.854]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-07-24 10:51:20.903]	Already installed "tmux-resurrect"
+[2026-07-24 10:51:20.917]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-07-24 10:51:20.946]	Updating all plugins!
+[2026-07-24 10:51:20.954]	
+[2026-07-24 10:51:21.867]	  "tmux-resurrect" update success
+[2026-07-24 10:51:21.878]	    | Already up to date.
+[2026-07-24 10:51:21.888]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-07-24 10:51:22.003]	Done.
+
+[2026-07-30 11:22:52.867]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect
+[2026-07-30 11:22:52.875]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-07-30 11:22:52.917]	Already installed "tmux-resurrect"
+[2026-07-30 11:22:52.925]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-07-30 11:22:52.945]	Updating all plugins!
+[2026-07-30 11:22:52.954]	
+[2026-07-30 11:22:53.804]	  "tmux-resurrect" update success
+[2026-07-30 11:22:53.815]	    | Already up to date.
+[2026-07-30 11:22:53.836]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-07-30 11:22:53.968]	Done.
+
+[2026-08-03 10:28:43.365]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect
+[2026-08-03 10:28:43.374]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-08-03 10:28:43.411]	Already installed "tmux-resurrect"
+[2026-08-03 10:28:43.419]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-08-03 10:28:43.439]	Updating all plugins!
+[2026-08-03 10:28:43.446]	
+[2026-08-03 10:28:44.353]	  "tmux-resurrect" update success
+[2026-08-03 10:28:44.361]	    | Already up to date.
+[2026-08-03 10:28:44.369]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-08-03 10:28:44.503]	Done.
+
+[2026-08-04 11:08:01.115]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect
+[2026-08-04 11:08:01.124]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-08-04 11:08:01.167]	Already installed "tmux-resurrect"
+[2026-08-04 11:08:01.175]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-08-04 11:08:01.194]	Updating all plugins!
+[2026-08-04 11:08:01.202]	
+[2026-08-04 11:08:02.026]	  "tmux-resurrect" update success
+[2026-08-04 11:08:02.033]	    | Already up to date.
+[2026-08-04 11:08:02.041]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-08-04 11:08:02.155]	Done.
+
+[2026-08-10 14:31:03.069]	List of discovered tpm plugins: tmux-plugins/tmux-resurrect
+[2026-08-10 14:31:03.078]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/install_plugins
+[2026-08-10 14:31:03.122]	Already installed "tmux-resurrect"
+[2026-08-10 14:31:03.130]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/update_plugins all
+[2026-08-10 14:31:03.151]	Updating all plugins!
+[2026-08-10 14:31:03.159]	
+[2026-08-10 14:31:04.414]	  "tmux-resurrect" update success
+[2026-08-10 14:31:04.426]	    | Already up to date.
+[2026-08-10 14:31:04.438]	Invoking /home/itshiroto/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2026-08-10 14:31:04.570]	Done.
+
